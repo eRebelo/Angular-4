@@ -119,9 +119,10 @@ dependências necessárias incluídas no arquivo package.json.
 
 
 ----------
-##Referências
-[1] Passo-a-passo: http://kazale.com/curso-basico-angular-2/
-[2] Curso YouTube: https://goo.gl/bDLqfF
-[3] Angular-CLI GitHub: https://github.com/angular/angular-cli
-[4] TypeScript: http://es6-features.org/#BlockScopedFunctions
-[5] Conversor TS -> JS: https://babeljs.io/repl/
+## Referências
+
+ 1. Passo-a-passo: http://kazale.com/curso-basico-angular-2/
+ 2. Curso YouTube: https://goo.gl/bDLqfF
+ 3. Angular-CLI GitHub: https://github.com/angular/angular-cli
+ 4. TypeScript: http://es6-features.org/#BlockScopedFunctions
+ 5. Conversor TS -> JS: https://babeljs.io/repl/

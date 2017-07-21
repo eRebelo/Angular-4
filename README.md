@@ -74,7 +74,7 @@ dependências necessárias incluídas no arquivo package.json.
 
 
 ----------
-##Criando Primeira Aplicação sem Angular CLI
+## Criando Primeira Aplicação sem Angular CLI
 - mkdir angular2-aula1
 - cd angular2-aula1
 - npm init -y

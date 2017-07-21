@@ -5,11 +5,11 @@
 <br>Versão: **node -v** 
 <br>Versão: **npm  -v**
 - Instalar typescript: **npm install -g typescript**
- - Versão: **tsc -v**
- - Obs.: NPM (NodeJS) é o equivalente ao Maven (Java)
+<br>Versão: **tsc -v**
+<br>Obs.: NPM (NodeJS) é o equivalente ao Maven (Java)
 - Instalar Angular CLI: **npm install -g @angular/cli**
- - Versão: **ng version**
- - Desinstalar: ****npm uninstall -g angular-cli @angular-cli angular-cli @angular/cli**
+<br>Versão: **ng version**
+<br>Desinstalar: ****npm uninstall -g angular-cli @angular-cli angular-cli @angular/cli**
 - Instalar IDE Atom: https://atom.io/
 
 ----------
@@ -20,7 +20,7 @@ Angular cli é uma interface de linha de comando para crirar aplicativos angular
 
 ## O que mudou no Angular 4?
 - **ngIF**
- - `<div *ngIf="mostraCursos; else cursosVazio">
+<br>`<div *ngIf="mostraCursos; else cursosVazio">
 	 Lista de cursos aqui.
 	< /div>
 <ng-template #cursosVazio>
@@ -53,24 +53,24 @@ dependências necessárias incluídas no arquivo package.json.
 ----------
 ## Criando Primeira Aplicação usando Angular CLI
 - Criar um novo projeto: **ng new primeiro-projeto**
- - Navegar dentro do projeto: cd primeiro-projeto
- - Instalar módulos node (se não instalados automaticamente): **npm install**
+<br>Navegar dentro do projeto: cd primeiro-projeto
+<br>Instalar módulos node (se não instalados automaticamente): **npm install**
 - Criar um novo componente: **ng g c meu-primeiro**
- - create src\app\meu-primeiro\meu-primeiro.component.css
- - create src\app\meu-primeiro\meu-primeiro.component.html
- - create src\app\meu-primeiro\meu-primeiro.component.spec.ts
- - create src\app\meu-primeiro\meu-primeiro.component.ts
- -  update src\app\app.module.ts
+<br>create src\app\meu-primeiro\meu-primeiro.component.css
+<br>create src\app\meu-primeiro\meu-primeiro.component.html
+<br>create src\app\meu-primeiro\meu-primeiro.component.spec.ts
+<br>create src\app\meu-primeiro\meu-primeiro.component.ts
+<br> update src\app\app.module.ts
 - Criar um novo **módulo**: **ng g m cursos**
- - create src\app\cursos\cursos.module.ts
+<br>create src\app\cursos\cursos.module.ts
 - Criar novo **componente**: **ng g c cursos**
 - Para exibir o conteúdo html do novo componente cursos criado, deve-se importar no app.module o módulo CursosModule
 - Criar um **serviço**[backend]: **ng g s cursos/cursos**
- - create src\app\cursos\cursos.service.spec.ts
- - create src\app\cursos\cursos.service.ts
- - Para instanciar um objeto service em um module, devemos adicionar a referência providers CursosService dentro do módulo CursosModule
+<br>create src\app\cursos\cursos.service.spec.ts
+<br>create src\app\cursos\cursos.service.ts
+<br>Para instanciar um objeto service em um module, devemos adicionar a referência providers CursosService dentro do módulo CursosModule
 - Executar o rservidor: **ng serve**
- - http://localhost:4200/
+<br>http://localhost:4200/
 
 
 ----------
@@ -78,19 +78,19 @@ dependências necessárias incluídas no arquivo package.json.
 - mkdir angular2-aula1
 - cd angular2-aula1
 - npm init -y
- - gera package.json, altera-se o conteúdo
+<br>gera package.json, altera-se o conteúdo
 - npm install
 - criar arquivo tsconfig.json
- - adiciona-se o conteúdo
+<br>adiciona-se o conteúdo
 - mkdir app
 - cd app
 - criar arquivo app-component.ts
- - adiciona-se o conteúdo
+<br>adiciona-se o conteúdo
 - criar arquivo boot.ts
- - adiciona-se o conteúdo
+<br>adiciona-se o conteúdo
 - cd ..
 - criar arquivo index.html
- - adiciona-se o conteúdo
+<br>adiciona-se o conteúdo
 
 
 ----------
@@ -98,24 +98,24 @@ dependências necessárias incluídas no arquivo package.json.
 ### Booststrap: https://goo.gl/a5aScV
 - Executar o comando dentro do diretório do projeto: npm install bootstrap@next
 - Adicionar os arquivos necessários dentro da tag scripts em .angular-cli.json:
- - "../node_modules/jquery/dist/jquery.js",
- - "../node_modules/tether/dist/js/tether.js",
- - "../node_modules/bootstrap/dist/js/bootstrap.js"
+<br>"../node_modules/jquery/dist/jquery.js",
+<br>"../node_modules/tether/dist/js/tether.js",
+<br>"../node_modules/bootstrap/dist/js/bootstrap.js"
 - Adicionar os arquivos necessários dentro da tag styles em .angular-cli.json:
- - "../node_modules/bootstrap/dist/css/bootstrap.css",
+<br>"../node_modules/bootstrap/dist/css/bootstrap.css",
 
 ### Materialize: https://goo.gl/EW9u3W
 - Executar os comandos dentro do diretório do projeto:
- - npm install materialize-css --save
- - npm install angular2-materialize --save	
- - npm install jquery@^2.2.4 --save
- - npm install hammerjs --save
+<br>npm install materialize-css --save
+<br>npm install angular2-materialize --save	
+<br>npm install jquery@^2.2.4 --save
+<br>npm install hammerjs --save
 - Adicionar os arquivos necessários dentro da tag scripts em .angular-cli.json:
- - "../node_modules/jquery/dist/jquery.js",
- - "../node_modules/hammerjs/hammer.js",
- - "../node_modules/materialize-css/dist/js/materialize.js"
+<br>"../node_modules/jquery/dist/jquery.js",
+<br>"../node_modules/hammerjs/hammer.js",
+<br>"../node_modules/materialize-css/dist/js/materialize.js"
 - Adicionar os arquivos necessários dentro da tag styles em .angular-cli.json:
- - "../node_modules/materialize-css/dist/css/materialize.css"
+<br>"../node_modules/materialize-css/dist/css/materialize.css"
 
 
 ----------

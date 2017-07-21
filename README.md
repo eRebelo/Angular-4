@@ -2,8 +2,8 @@
 
 ## Ambiente de Desenvolvimento
 - Instalar nodeJS com NPM: https://nodejs.org/en/download/
- Versão: **node -v** 
- Versão: **npm  -v**
+<br>Versão: **node -v** 
+<br>Versão: **npm  -v**
 - Instalar typescript: **npm install -g typescript**
  - Versão: **tsc -v**
  - Obs.: NPM (NodeJS) é o equivalente ao Maven (Java)

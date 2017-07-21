@@ -2,7 +2,7 @@
 
 ## Ambiente de Desenvolvimento
 - Instalar nodeJS com NPM: https://nodejs.org/en/download/
- - Versão: **node -v** 
+    Versão: **node -v** 
  - Versão: **npm  -v**
 - Instalar typescript: **npm install -g typescript**
  - Versão: **tsc -v**

@@ -1,0 +1,15 @@
+<div>Lista de Times:</div>
+
+<div *ngIf="mostrarTimes; else timesVazio">
+  <ul>
+    <li *ngFor="let time of times">
+      {{ time }}
+    </li>
+  </ul>
+</div>
+<ng-template #timesVazio>
+  Não existem times para serem listados
+</ng-template>
+
+<br>
+<button (click)="onMostrarTimes()">Mostrar ou esconder times</button>

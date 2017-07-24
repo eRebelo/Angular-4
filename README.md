@@ -20,12 +20,8 @@ Angular cli é uma interface de linha de comando para criar aplicativos angulare
 
 ## O que mudou no Angular 4?
 - **ngIF**
-<br>`<div *ngIf="mostraCursos; else cursosVazio">
-Lista de cursos aqui.
-</div>`
-<br>`<ng-template #cursosVazio>
-Não existem cursos para serem listados
-</ng-template>`
+<br>`<div *ngIf="mostraCursos; else cursosVazio">Lista de cursos aqui.</div>`
+<br>`<ng-template #cursosVazio>Não existem cursos para serem listados</ng-template>`
 - **ngFor**: async as
 - Validações para Formulários: tag **email** substituindo o regex pattern
 - Renderer depreciado pelo **Renderer2**, marcação de estilo…

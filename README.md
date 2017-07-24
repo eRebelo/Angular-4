@@ -9,12 +9,12 @@
 <br>Obs.: NPM (NodeJS) é o equivalente ao Maven (Java)
 - Instalar Angular CLI: **npm install -g @angular/cli**
 <br>Versão: **ng version**
-<br>Desinstalar: ****npm uninstall -g angular-cli @angular-cli angular-cli @angular/cli**
+<br>Desinstalar: **npm uninstall -g angular-cli @angular-cli angular-cli @angular/cli**
 - Instalar IDE Atom: https://atom.io/
 
 ----------
 ## O que é Angular CLI?
-Angular cli é uma interface de linha de comando para crirar aplicativos angulares e andaimes, usando módulos de estilo nodejs. Algumas das coisas que podem ser adicionadas com andaimes são componentes, rotas, serviços, classes e tubulações.
+Angular cli é uma interface de linha de comando para criar aplicativos angulares já com a estrutura padrão, usando módulos de estilo nodejs. Algumas das coisas que podem ser adicionadas são: componentes, rotas, serviços, classes e tubulações.
 
 ----------
 
@@ -22,12 +22,12 @@ Angular cli é uma interface de linha de comando para crirar aplicativos angular
 - **ngIF**
 <br>`<div *ngIf="mostraCursos; else cursosVazio">
 Lista de cursos aqui.
-	< /div>
-<ng-template #cursosVazio>
-     Não existem cursos para serem listados
-	</ng-template>`
-- **ngFor**: | async as
-- Validações para Formulários: tag **email** substituindo o pattern regex
+	< /div>`
+<br>`<ng-template #cursosVazio>
+Não existem cursos para serem listados
+</ng-template>`
+- **ngFor**: async as
+- Validações para Formulários: tag **email** substituindo o regex pattern
 - Renderer depreciado pelo **Renderer2**, marcação de estilo…
 - TypeScript 1.8 -> **2.1**
 
@@ -61,14 +61,14 @@ dependências necessárias incluídas no arquivo package.json.
 <br>create src\app\meu-primeiro\meu-primeiro.component.spec.ts
 <br>create src\app\meu-primeiro\meu-primeiro.component.ts
 <br> update src\app\app.module.ts
-- Criar um novo **módulo**: **ng g m cursos**
-<br>create src\app\cursos\cursos.module.ts
-- Criar novo **componente**: **ng g c cursos**
-- Para exibir o conteúdo html do novo componente cursos criado, deve-se importar no app.module o módulo CursosModule
-- Criar um **serviço**[backend]: **ng g s cursos/cursos**
-<br>create src\app\cursos\cursos.service.spec.ts
-<br>create src\app\cursos\cursos.service.ts
-<br>Para instanciar um objeto service em um module, devemos adicionar a referência providers CursosService dentro do módulo CursosModule
+- Criar um novo **módulo**: **ng g m teste**
+<br>create src\app\teste\teste.module.ts
+- Criar novo **componente**: **ng g c teste**
+- Para exibir o conteúdo html do novo componente teste criado, deve-se importar no app.module o módulo testeModule
+- Criar um **serviço**[backend]: **ng g s teste/teste**
+<br>create src\app\teste\teste.service.spec.ts
+<br>create src\app\teste\teste.service.ts
+<br>Para instanciar um objeto service em um module, devemos adicionar a referência providers TesteService dentro do módulo TesteModule
 - Executar o rservidor: **ng serve**
 <br>http://localhost:4200/
 

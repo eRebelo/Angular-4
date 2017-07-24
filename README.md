@@ -52,31 +52,31 @@ dependências necessárias incluídas no arquivo package.json.
 
 ----------
 ## Criando Primeira Aplicação usando Angular CLI
-- Criar um novo projeto: **ng new primeiro-projeto**
-<br>Navegar dentro do projeto: cd primeiro-projeto
+- Criar um novo projeto: **ng new teste**
+<br>Navegar dentro do projeto: cd teste
 <br>Instalar módulos node (se não instalados automaticamente): **npm install**
 - Criar um novo componente: **ng g c meu-primeiro**
-<br>create src\app\meu-primeiro\meu-primeiro.component.css
-<br>create src\app\meu-primeiro\meu-primeiro.component.html
-<br>create src\app\meu-primeiro\meu-primeiro.component.spec.ts
-<br>create src\app\meu-primeiro\meu-primeiro.component.ts
+<br>create src\app\teste\meu-primeiro.component.css
+<br>create src\app\teste\meu-primeiro.component.html
+<br>create src\app\teste\meu-primeiro.component.spec.ts
+<br>create src\app\teste\meu-primeiro.component.ts
 <br> update src\app\app.module.ts
-- Criar um novo **módulo**: **ng g m teste**
-<br>create src\app\teste\teste.module.ts
-- Criar novo **componente**: **ng g c teste**
-- Para exibir o conteúdo html do novo componente teste criado, deve-se importar no app.module o módulo testeModule
-- Criar um **serviço**[backend]: **ng g s teste/teste**
-<br>create src\app\teste\teste.service.spec.ts
-<br>create src\app\teste\teste.service.ts
-<br>Para instanciar um objeto service em um module, devemos adicionar a referência providers TesteService dentro do módulo TesteModule
-- Executar o rservidor: **ng serve**
+- Criar um novo **módulo**: **ng g m meu-primeiro**
+<br>create src\app\teste\meu-primeiro.module.ts
+- Criar novo **componente**: **ng g c meu-primeiro**
+- Para exibir o conteúdo html do novo componente meu-primeiro criado, deve-se importar no app.module o módulo MeuPrimeiroModule
+- Criar um **serviço**[backend]: **ng g s teste/meu-primeiro**
+<br>create src\app\teste\meu-primeiro.service.spec.ts
+<br>create src\app\teste\meu-primeiro.service.ts
+<br>Para instanciar um objeto service em um module, devemos adicionar a referência providers MeuPrimeiroService dentro do módulo MeuPrimeiroModule
+- Executar o servidor: **ng serve**
 <br>http://localhost:4200/
 
 
 ----------
 ## Criando Primeira Aplicação sem Angular CLI
-- mkdir angular2-aula1
-- cd angular2-aula1
+- mkdir angular-project
+- cd angular-project
 - npm init -y
 <br>gera package.json, altera-se o conteúdo
 - npm install

@@ -22,7 +22,7 @@ Angular cli é uma interface de linha de comando para criar aplicativos angulare
 - **ngIF**
 <br>`<div *ngIf="mostraCursos; else cursosVazio">
 Lista de cursos aqui.
-	< /div>`
+</div>`
 <br>`<ng-template #cursosVazio>
 Não existem cursos para serem listados
 </ng-template>`
@@ -55,16 +55,15 @@ dependências necessárias incluídas no arquivo package.json.
 - Criar um novo projeto: **ng new teste**
 <br>Navegar dentro do projeto: cd teste
 <br>Instalar módulos node (se não instalados automaticamente): **npm install**
-- Criar um novo componente: **ng g c meu-primeiro**
+- Criar um novo **módulo**: **ng g m meu-primeiro**
+<br>create src\app\teste\meu-primeiro.module.ts
+- Criar um novo **componente**: **ng g c meu-primeiro**
 <br>create src\app\teste\meu-primeiro.component.css
 <br>create src\app\teste\meu-primeiro.component.html
 <br>create src\app\teste\meu-primeiro.component.spec.ts
 <br>create src\app\teste\meu-primeiro.component.ts
-<br> update src\app\app.module.ts
-- Criar um novo **módulo**: **ng g m meu-primeiro**
-<br>create src\app\teste\meu-primeiro.module.ts
-- Criar novo **componente**: **ng g c meu-primeiro**
-- Para exibir o conteúdo html do novo componente meu-primeiro criado, deve-se importar no app.module o módulo MeuPrimeiroModule
+<br>update src\app\app.module.ts
+<br>Para exibir o conteúdo html do novo componente meu-primeiro criado, deve-se importar no app.module o módulo MeuPrimeiroModule
 - Criar um **serviço**[backend]: **ng g s teste/meu-primeiro**
 <br>create src\app\teste\meu-primeiro.service.spec.ts
 <br>create src\app\teste\meu-primeiro.service.ts
